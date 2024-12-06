@@ -1,17 +1,13 @@
 {
-  "name": "rules_wick",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "@discordjs/builders": "^1.9.0",
-    "discord.js": "^14.16.1",
-    "figlet": "^1.7.0"
+    "name": "rules-bot",
+    "version": "1.0.0",
+    "description": "bot that send rules as embed with select menu",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "dependencies": {
+      "discord.js": "^13.0.0"
+    }
   }
-}
+  
